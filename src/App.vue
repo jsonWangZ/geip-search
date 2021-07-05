@@ -1,9 +1,13 @@
+<!--
+ * @Author: your name
+ * @Date: 2021-07-05 09:31:55
+ * @LastEditTime: 2021-07-05 10:18:05
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /glodon/plugin/geip-search/src/App.vue
+-->
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view/>
   </div>
 </template>

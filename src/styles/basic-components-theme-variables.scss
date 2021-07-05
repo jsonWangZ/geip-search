@@ -1,0 +1,15 @@
+/* 改变主题色变量 */
+$--color-primary: #268DFF;
+
+/* 改变功能色变量 */
+$--color-success: #17D017;
+$--color-warning: #F08616;
+$--color-danger: #FA2A31;
+$--color-info: #268DFF;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~@geip/theme-default/lib/fonts';
+
+// 全局背景色
+$--background-color-base: #F5F5F5; // disable, select hover/selected, cascader node hover, table row hover, tree node hover
+

@@ -2,12 +2,15 @@
   "name": "geip-search",
   "version": "0.1.0",
   "private": true,
+  "main": "dist/geip-search-umd.min.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name geip-search src/plugins/index.js",
+    "build:lib": "vue-cli-service build --target lib --name geip-search --dest lib  src/plugins/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@geip/basic-components": "^1.0.0-alpha.102",
     "core-js": "^3.6.5",
     "register-service-worker": "^1.7.1",
     "vue": "^2.6.11",
@@ -22,6 +25,7 @@
     "@vue/cli-plugin-vuex": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
+    "babel-plugin-component": "^1.1.1",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
     "node-sass": "^4.12.0",
