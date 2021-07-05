@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-07-05 09:31:55
- * @LastEditTime: 2021-07-05 15:29:15
+ * @LastEditTime: 2021-07-05 15:52:55
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /glodon/plugin/geip-search/src/views/Home.vue
@@ -19,6 +19,7 @@ export default {
   components: {},
   mounted () {
     console.log('init home')
+    console.log('2222222')
   }
 }
 </script>
