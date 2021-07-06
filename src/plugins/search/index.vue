@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-07-05 10:08:23
- * @LastEditTime: 2021-07-05 14:18:07
+ * @LastEditTime: 2021-07-06 10:17:48
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /glodon/plugin/geip-search/src/plugins/search/index.vue
@@ -26,11 +26,7 @@ export default {
   },
   computed: {},
   watch: {},
-  created () {
-    document.querySelector('a').addEventListener('click', e => {
-      e.preventDefault();
-    })
-  },
+  created () {},
   methods: {}
 }
 </script>
