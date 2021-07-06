@@ -5,7 +5,7 @@ module.exports = {
   mode: 'production',
   entry: './src/plugins/index.js',
   output: {
-    path: path.resolve(__dirname, '../../lib'),
+    path: path.resolve(__dirname, '../lib'),
     filename: 'Search.js',
     library: 'Search',
     libraryTarget: 'umd',
